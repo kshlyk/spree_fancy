@@ -130,7 +130,7 @@ nav#top-nav-bar {
   }
 }
 nav #main-nav-bar, nav#top-nav-bar {
-  margin-top: 40px;
+  margin-top: 5px;
   text-align: right;
 
   li {
@@ -152,6 +152,9 @@ nav #main-nav-bar, nav#top-nav-bar {
       }
     }
   }
+}
+nav #nav-bar {
+  margin-top: 25px;
 }
 nav #main-nav-bar li {
   a {
