@@ -237,6 +237,9 @@
     }
 
     ul#products {
+      li.product-row {
+        width: 300px;  
+      }
       a.info {
         font-size: 12px;
         font-weight: 600;
@@ -395,6 +398,9 @@
     }
 
     ul#products {
+      li.product-row {
+        width: 440px;
+      }
       a.info {
         font-size: 12px;
         font-weight: 600;
