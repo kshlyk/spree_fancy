@@ -43,6 +43,10 @@
     }
 
     ul#products {
+      li.product-row {
+        width: 710px;
+      }
+
       .product-image {
         a {
           img {
