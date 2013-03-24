@@ -9,6 +9,9 @@
               <div class="product-image">
                 <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
               </div>
+              <% if defined?(Spree::SpreeReviews) %>
+                <div align="center" style="height: 15px;"><%= render 'shared/rating', :product => product %></div>
+              <% end %>
               <%= link_to truncate(product.name, :length => 50), product, :class => 'info', :itemprop => "name", :title => product.name %>
               <span class="price selling" itemprop="price"><%= product.price_in(current_currency).display_price %></span>
             </li>
