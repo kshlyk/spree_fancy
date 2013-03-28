@@ -7,7 +7,7 @@
           <% if product.on_display? %>
             <li id="product_<%= product.id %>" class="columns four <%= cycle("alpha", "secondary", "omega secondary", :name => "classes") %>" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product">
               <% if defined?(SpreeReviews) %>
-                <div align="center" style="height: 15px;"><%= render 'spree/shared/rating', :product => product %></div>
+                <div align="center" style="text-align: left;height: 15px;"><%= render 'spree/shared/rating', :product => product %></div>
               <% end %>
               <div class="product-image">
                 <%= link_to small_image(product, :itemprop => "image"), product, :itemprop => 'url' %>
