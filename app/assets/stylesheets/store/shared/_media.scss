@@ -57,6 +57,14 @@
       } 
     }
 
+    #update-cart .coupon-code-field {
+      position: absolute;
+      margin-top: -30px !important;
+      padding-left: 380px !important;
+      width: 300px !important;
+      margin-left: -20px;
+    }
+
     #billing, #shipping {
       input {
         width: 220px;
@@ -145,6 +153,24 @@
 
     #update-cart #subtotal {
       width: 100%;  
+    }
+
+    #update-cart .coupon-code-field {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      width: 420px !important;
+      padding-left: 0px !important;
+      position: relative;
+      text-align: center;
+      right: 0;
+
+      label {
+        font-size: 12px;
+      }
+
+      input {
+        padding: 3px 15px;
+      }
     }
 
     table#cart-detail {
@@ -465,4 +491,11 @@
     }
 
   } 
+}
+@media only screen and (max-width: 480px) {
+  body {
+    #update-cart .coupon-code-field {
+      width: 300px !important;
+    }
+  }
 }
