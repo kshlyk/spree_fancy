@@ -1,6 +1,13 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {
   body {
 
+    span.rating_stars {
+      position: absolute;
+      z-index: 5;
+      margin-left: 63px;
+      margin-top: 200px;
+    }
+
     .carousel li.four.columns {
       width: 240px !important;
     }
@@ -104,6 +111,13 @@
 
 @media only screen and (max-width: 767px) {
   body {
+
+    span.rating_stars {
+      position: absolute;
+      z-index: 5;
+      margin-left: 20px;
+      margin-top: 123px;
+    }
 
     nav #nav-bar {
       margin-top: 0px;
@@ -394,6 +408,13 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   body {
 
+    span.rating_stars {
+      position: absolute;
+      z-index: 5;
+      margin-left: 20px;
+      margin-top: 123px;
+    }
+
     nav #nav-bar {
       margin-top: 0px;
     }
@@ -496,6 +517,13 @@
   body {
     #update-cart .coupon-code-field {
       width: 300px !important;
+    }
+
+    span.rating_stars {
+      position: absolute;
+      z-index: 5;
+      margin-left: 103px;
+      margin-top: 275px;
     }
   }
 }
