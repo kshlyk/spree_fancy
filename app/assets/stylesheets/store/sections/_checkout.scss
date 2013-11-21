@@ -82,11 +82,6 @@ fieldset {
     &:last-child, &:last-child span {
       color: $c_orange;
     }
-    &:last-child { 
-      &:before {
-        content: '+ ';
-      } 
-    }
   }  
 }
 
